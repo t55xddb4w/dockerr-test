@@ -22,6 +22,8 @@ RUN \
 	build-dependencies && \
  rm -rf \
 	/tmp/*
+RUN apt-get install -y konqueror
+RUN apt-get install -y epiphany-browser
 
 # add local files
 COPY /root /
