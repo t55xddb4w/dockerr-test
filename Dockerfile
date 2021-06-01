@@ -23,6 +23,7 @@ RUN \
  rm -rf \
 	/tmp/*
 RUN apk add konqueror
+RUN apk add chromium
 RUN apk add midori
 
 # add local files
